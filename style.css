@@ -134,3 +134,37 @@
   text-decoration: none;
   color: blue;
 }
+
+#listProduct {
+  display: none;
+}
+
+#listProduct2 {
+  display: contents;
+}
+
+#listProduct3 {
+  display: none;
+}
+
+#listProduct4 {
+  display: contents;
+}
+
+#listProduct5 {
+  display: none;
+}
+
+#listProduct6 {
+  display: none;
+}
+
+.product-list {
+  align-items: center;
+  border-top: 1px solid gray;
+  margin: 0 10px;
+}
+
+.product-list .product-items {
+  flex-grow: 1;
+}
